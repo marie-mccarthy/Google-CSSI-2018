@@ -1,0 +1,16 @@
+<!DOCTYPE>
+  <html lang = "en" dir = "ltr">
+  <head>
+    <meta charset = "utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/info.css">
+  </head>
+  <body>
+    <h1>Mad Lib Results</h1>
+    {% for i in data %}
+    <p>One day a dog named <span class="hilight">{{i.noun1}} </span></p>
+    <p>went outside to <span class="hilight">{{i.verb1}} </span></p>
+    <p>and <span class="hilight">{{i.verb2}} </span></p>
+    {% endfor %}
+  </body>
+</html>

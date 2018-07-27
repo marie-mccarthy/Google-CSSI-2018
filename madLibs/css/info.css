@@ -1,0 +1,20 @@
+.hilight{
+  color: green;
+}
+body{
+  background-color: pink;
+  padding:60px;
+}
+h1 {
+background-color: lightblue;
+color: darkblue;
+font-weight: 600;
+height: 60px;
+line-height: 90px;
+padding: 25px;
+width: 100%;
+font-family: Helvetica;
+}
+img {
+width: 200px;
+}

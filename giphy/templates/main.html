@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Giphy Search</title>
+    <style>
+    body{
+      background-color: lightblue;
+    }
+    img {
+      width:200px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <form method = "GET">
+    <input class="input" name="q"/>
+    <button>Submit</button>
+
+{% for url in gif_urls %}
+<img src="{{url}}"/>
+{% endfor %}
+<p>{{gif_urls}}</p>
+</form>
+  </body>
+</html>
